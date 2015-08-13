@@ -8,5 +8,6 @@ public class TitleCaseTest {
     TitleCase titleCase = new TitleCase();
 
     assertEquals( "Beowulf", titleCase.toTitleCase("beowulf") );
+    assertEquals( "Big Beowulf", titleCase.toTitleCase("big beowulf") );
   }
 }
